@@ -1,0 +1,16 @@
+body {
+  background-color: gray;
+}
+
+.cont {
+  width: 300px;
+  margin: 10px auto;
+}
+
+.red {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+}
