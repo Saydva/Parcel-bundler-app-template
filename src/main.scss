@@ -7,10 +7,43 @@ $error-color:#EEEEEE;
 
 body{
     background-color: $main-color;
+    margin: 3rem 6rem;
 }
+
 .head{
     color:$text-color
 }
+
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchdiv{
+    display: flex;
+    text-align: center;
+ border-radius: 15px;
+}
+
+.head,
+label,
+input
+{
+    display: block;    
+    margin: 10px auto;
+}
+
 .search{
     color: $subtext-color;
+}
+
+.searchdiv{
+    display: inline-block;
+    background-color: $element-color;
+}
+
+.debug{
+    color: red;
+    text-align: center;
+    margin: 15px;
 }
