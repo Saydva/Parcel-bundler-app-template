@@ -584,8 +584,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"bNKaB":[function(require,module,exports) {
-let boom = document.querySelector(".red");
-boom.innerText = "wow";
 
 },{}]},["gbXMy","bNKaB"], "bNKaB", "parcelRequire716c")
 
