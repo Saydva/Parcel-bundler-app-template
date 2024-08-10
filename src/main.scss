@@ -10,7 +10,9 @@ body{
     margin: 3rem 6rem;
 }
 
-.head{
+.head,
+h4 
+{
     color:$text-color
 }
 
@@ -42,8 +44,14 @@ input
     background-color: $element-color;
 }
 
-.debug{
+#debug{
     color: red;
     text-align: center;
     margin: 15px;
+}
+
+#dtext{
+    padding: 15px 0;
+    border: 1px $subtext-color solid;
+    border-radius: 4px;
 }

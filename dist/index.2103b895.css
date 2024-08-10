@@ -3,7 +3,7 @@ body {
   margin: 3rem 6rem;
 }
 
-.head {
+.head, h4 {
   color: #508c9b;
 }
 
@@ -32,9 +32,15 @@ body {
   display: inline-block;
 }
 
-.debug {
+#debug {
   color: red;
   text-align: center;
   margin: 15px;
+}
+
+#dtext {
+  border: 1px solid #36c2ce;
+  border-radius: 4px;
+  padding: 15px 0;
 }
 /*# sourceMappingURL=index.2103b895.css.map */
