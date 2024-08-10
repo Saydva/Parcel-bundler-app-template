@@ -1,0 +1,16 @@
+$main-color:#201E43;
+$element-color:#134B70;
+$text-color:#508C9B;
+$subtext-color:#36C2CE;
+$error-color:#EEEEEE;
+
+
+body{
+    background-color: $main-color;
+}
+.head{
+    color:$text-color
+}
+.search{
+    color: $subtext-color;
+}
